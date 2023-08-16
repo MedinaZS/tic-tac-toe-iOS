@@ -148,7 +148,7 @@ class ViewController: UIViewController {
         //Agregar boton de reseteo
         alert.addAction(UIAlertAction(title: "Start Over", style: .destructive, handler: { (_) in self.startOver()
         }))
-        alert.addAction(UIAlertAction(title: "Play Again", style: .cancel, handler: { (_) in self.playAgain()
+        alert.addAction(UIAlertAction(title: "Play Again", style: .default, handler: { (_) in self.playAgain()
         }))
         
         
